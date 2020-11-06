@@ -1,0 +1,31 @@
+{
+  "name": "neenjaw-exercism-repo-watch-lite",
+  "version": "1.0.2",
+  "description": "A command-line tool to manage exercism repository notifications",
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neenjaw/exercism-repo-watch-lite.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tim Austin",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "@octokit/rest": "^18.0.6",
+    "clui": "^0.3.6",
+    "inquirer": "^7.3.3",
+    "yargs": "^16.1.0"
+  },
+  "bin": {
+    "exercism-repo-watch-lite": "cli.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  }
+}
